@@ -15,7 +15,7 @@ public class TestTask implements Runnable{
 	public void run() {
 		// TODO Auto-generated method stub
 		try{
-			Thread.sleep(5 *1000);
+			Thread.sleep(10 *1000);
 		}catch(Exception e){
 			e.printStackTrace();
 		}
